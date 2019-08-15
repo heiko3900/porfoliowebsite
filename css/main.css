@@ -4,41 +4,193 @@ body {
 
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
+    width: 100%;
+    padding: 0 79px; 
+    box-sizing: border-box;
 }
 
 #header {
     font-family: 'Open Sans', sans-serif;
-    background: #69DCBF;
-    height: 200px;
+    background: #F7F7F7; 
     position: fixed;
     width: 100%;
-    padding: 18px 30px 0;
-    z-index: 9;
-}
+    height: 20vh;
+    /* padding: 18px 30px;
+    box-sizing: border-box; */
 
+}
 
 .logos {
     font-family:  'Blinker', sans-serif;
     font-size: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 90px;
-    width: 100%;
+    font-weight: 600;
     color: #501d58;
+    margin: 30px  0  18px 79px;
 }
 
 .PD {
     font-size: 32px;
-    height: 90px;
+    color: #501d58;
 }
 
-
+.nav {
+    display: flex;
+    color: #501d58;
+}
 
 
 .nav li{
-    margin-right: 12px;
+    margin-left: 12px;
 }
+
+.sect1 {
+    padding-top: 25vh; 
+    display: grid;
+    grid-template: 70vh / 40vw 60vw;
+    margin-bottom: 5vh;
+}
+ 
+.section-img {
+    background-image: url(../fotos/VEGENIUS_some_hi_fi.png);
+    background-size: cover;
+    background-position: 100% 20%;
+    background-repeat:no-repeat;  
+    /*outline: 1px solid red;*/
+}
+
+.section-text-inside h2 {
+    font-size: 27px;
+    color: #501d58;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.section-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-text-inside {
+    width: 366px;
+    font-family: 'Open Sans', sans-serif;
+    color: #501d58;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.sect2 {
+    display: grid;
+    grid-template: 70vh / 40vw 60vw;
+    margin-bottom: 5vh;  
+}
+
+.section-img2 {
+    background-image: url(../fotos/jewelry_studio_Yo.7_edited.jpg);
+    background-size: cover;
+    /* background-position: 100% 20%; */
+    background-position: center;
+    background-repeat:no-repeat;  
+    /*outline: 1px solid red;*/
+}
+
+.section-text-inside2 {
+    width: 366px;
+    font-family: 'Open Sans', sans-serif;
+    color: #501d58;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.section-text-inside2 h2 {
+    font-size: 27px;
+    color: #501d58;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.sect3 {
+    display: grid;
+    grid-template: 70vh / 40vw 60vw;
+    margin-bottom: 5vh;  
+}
+
+.section-img3 {
+    background-image: url(../fotos/shades_studio_probe-pers2.477\ copy.jpg);
+    background-size: cover;
+    /* background-position: 100% 20%; */
+    background-position: center;
+    background-repeat:no-repeat;  
+    /*outline: 1px solid red;*/
+}
+
+.section-text-inside3 {
+    width: 366px;
+    font-family: 'Open Sans', sans-serif;
+    color: #501d58;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.section-text-inside3 h2 {
+    font-size: 27px;
+    color: #501d58;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+
+.sect4 {
+    display: grid;
+    grid-template: 70vh / 40vw 60vw;
+    margin-bottom: 5vh;  
+}
+
+.section-img4 {
+
+    background-image: url(../fotos/coffeee.5577.jpg);
+    background-size: cover;
+    /* background-position: 100% 20%; */
+    background-position: center;
+    background-repeat:no-repeat;  
+    /*outline: 1px solid red;*/
+}
+
+.section-text-inside4 {
+    width: 366px;
+    font-family: 'Open Sans', sans-serif;
+    color: #501d58;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.section-text-inside4 h2 {
+    font-size: 27px;
+    color: #501d58;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
