@@ -178,13 +178,56 @@ body {
 }
 
 
-.sect5-grid {
-    width: 900px;
+.section-text2 {
+    width: 100vw;
     display: grid;
-    grid-template: repeat(2,120px);
-    grid-template: repeat(4,1fr);
-    grid-gap: 20px;
+    grid-template: repeat(2,50vh)/repeat(4, auto);
+    /* / repeat(4,1fr); */
+    
+    grid-gap: 10px;
+    justify-content: center;
+
+
+    /* display: grid;
+    grid-template: 35vh 35vh / 40vw 60vw;
+    margin-bottom: 5vh; */
+
+
+
 }
+
+.section-text-inside5 {
+    width: 366px;
+    font-family: 'Open Sans', sans-serif;
+    color: #501d58;
+    text-align: justify;
+    line-height: 1.5;
+    background-image: url(/portfoliowebsite/fotos/yono_taola_detalles_873264781_683x.jpg);
+    background-size: cover;
+    outline: 1px solid red;
+}
+
+
+
+
+
+
+.section5-img1 {
+
+    background-image: url(/portfoliowebsite/fotos/yono_taola_detalles_873264781_683x.jpg);
+    background-size: cover;
+     /* background-position: 100% 20%; 
+    background-position: center; */
+    background-repeat:no-repeat;  
+    outline: 1px solid red;
+
+}
+
+
+
+
+
+
 
 
 
